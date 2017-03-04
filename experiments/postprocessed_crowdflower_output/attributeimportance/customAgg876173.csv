@@ -1,0 +1,15 @@
+"id","orig","rating","values","count"
+0,"bruises?",5.166666666666667,"<i>yes</i> or <i>no</i>",6
+1,"cap-shape",7.625,"<i>bell</i>,<i>conical</i>,<i>convex</i>,<i>flat</i>,<i>knobbed</i>,<i>sunken</i>",8
+2,"gill-color",5.714285714285714,"<i>black</i>,<i>brown</i>,<i>buff</i>,<i>chocolate</i>,<i>gray</i>,<i>green</i>,<i>orange</i>,<i>pink</i>,<i>purple</i>,<i>red</i>,<i>white</i>,<i>yellow</i><i>black</i>,<i>brown</i>,<i>buff</i>,<i>chocolate</i>,<i>gray</i>,<i>green</i>,<i>orange</i>,<i>pink</i>,<i>purple</i>,<i>red</i>,<i>white</i>,<i>yellow</i>",7
+3,"gill-size",4.5,"<i>broad</i>,<i>narrow</i>",6
+4,"gill-spacing",4.285714285714286,"<i>close</i>,<i>crowded</i>,<i>distant</i>",7
+5,"habitat",4.5,"<i>grasses</i>,<i>leaves</i>,<i>meadows</i>,<i>paths</i>,<i>urban</i>,<i>waste</i>,<i>woods</i>",6
+6,"odor",6.666666666666667,"<i>almond</i>,<i>anise</i>,<i>creosote</i>,<i>fishy</i>,<i>foul</i>,<i>musty</i>,<i>does not have odour</i>,<i>pungent</i>,<i>spicy</i>",6
+7,"population",3.3333333333333335,"<i>abundant</i>,<i>clustered</i>,<i>numerous</i>,<i>scattered</i>,<i>several</i>,<i>solitary</i>",6
+8,"ring-number",6.222222222222222,"<i>no rings</i>,<i>one ring</i>,<i>two ring</i>",9
+9,"spore-print-color",5.833333333333333,"<i>black</i>,<i>brown</i>,<i>buff</i>,<i>chocolate</i>,<i>green</i>,<i>orange</i>,<i>purple</i>,<i>white</i>,<i>yellow</i>",6
+10,"stalk-root",3.5,"<i>bulbous</i>,<i>club</i>,<i>cup</i>,<i>equal</i>,<i>rhizomorphs</i>,<i>rooted</i>,<i>missing</i>",6
+11,"stalk-shape",4.166666666666667,"<i>enlarging</i>,<i>tapering</i>",6
+12,"stalk-surface-above-ring",5.333333333333333,"<i>fibrous</i>,<i>scaly</i>,<i>silky</i>,<i>smooth</i>",6
+13,"veil-color",8.0,"<i>brown</i>,<i>orange</i>,<i>white</i>,<i>yellow</i>",7

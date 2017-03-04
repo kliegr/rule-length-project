@@ -1,0 +1,18 @@
+========================= CHI SQUARE ANALYSIS ====================================
+==================================================================================
+========================= r1len r2len ==================================
+             lower higher samevalue
+strong           0      0         0
+weak             0      0         0
+nopreference     0      0         0
+CHECKSUM: Number of total rows:  0 ; Number of rows with non-missing input: 0 ; Sum of counts in contingency table: 0.0
+WARNING: samevalue column ignored (all zeros)
+p value nan
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref     0      0         0
+no preference     0      0         0
+CHECKSUM: Number of total rows:  0 ; Number of rows with non-missing input: 0 ; Sum of counts in contingency table: 0.0
+Average difference: nan
+WARNING:  samevalue column ignored (all zeros)

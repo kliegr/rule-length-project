@@ -1,0 +1,551 @@
+using stats/datafiles/V3-Movies-e4-sameLengthRulesNonDisjunctAtt.csv 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpAvgDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthSumDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthAvgDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ MinDistanceDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ MaxDistanceDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankAvgDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ ConfDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ SuppDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenDelta + LabelLengthAvgDelta + LabelLengthMaxDelta + 
+    PageRankMinDelta + PageRankAvgDelta + SuppDelta + ConfDelta, 
+    data = filteredCF, Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+[1] "NA"
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpMinRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpAvgRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMinRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthAvgRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMinRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMinRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankAvgRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ ConfRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ SuppRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenRatio + LabelLengthMaxRatio + LabelLengthAvgDelta + 
+    PageRankMinRatio + PageRankAvgRatio + SuppRatio + ConfRatio, 
+    data = filteredCF, na.action = na.omit, Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -10.0862  26.7399    -0.3772
+-1|0   -1.3757   1.1144    -1.2344
+0|1     1.3921   1.1186     1.2445
+1|2     1.3924   1.1187     1.2446
+
+Residual Deviance: 9.503625 
+AIC: 17.50362 
+[1] "NA"
+total number of rows 5 
+the resubstitution error of most frequent class 0.4 

@@ -1,0 +1,3877 @@
+using stats/datafiles/V2-e11-mushrooms.csv 
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 1442900, p-value = 1.288e-13
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+     rho 
+0.445908 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 7.4363, p-value = 1.035e-13
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.3651438 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3849543 3.217904e-10  6.555205 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3181031 2.926019e-07  5.273299 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2878366 1.329373e-11  6.765404 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4394366 3.525198e-13  7.688401 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.4363051 5.396945e-13  7.620674 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3561194 5.744965e-17  8.370345 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.4160502 7.6494e-12  7.190633 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3899481 1.811472e-10  6.655376 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3462518 4.004856e-16  8.138415 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4198991 4.684848e-12  7.271313 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.4017255 4.494426e-11  6.894395 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate      p.value statistic   n gp  Method
+1 0.330235 8.363361e-15   7.76195 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4281706 1.598951e-12  7.446326 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.4074481 2.237836e-11  7.011991 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate      p.value statistic   n gp  Method
+1 0.344081 6.095631e-16  8.087391 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3542086 8.995896e-09  5.952763 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate      p.value statistic   n gp   Method
+1 0.253589 5.170243e-05  4.120143 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2570263 1.529442e-09   6.04123 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3786376 6.565326e-10  6.429463 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate      p.value statistic   n gp   Method
+1 0.305805 8.672087e-07  5.047927 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2843209 2.344666e-11   6.68277 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2937531 2.399469e-06  4.829776 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2111767 0.0007981279  3.395478 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2173067 3.261931e-07  5.107648 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2588512 3.553569e-05  4.211713 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1281271 0.04338643   2.03041 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1352982 0.001472281  3.180092 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4558742 3.503917e-14  8.049741 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate      p.value statistic   n gp   Method
+1 0.355449 7.917669e-09  5.976618 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3103479 2.997301e-13  7.294518 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2305029 0.0002439818  3.722889 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.1006165 0.1132543  1.589377 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1347959 0.001533403  3.168287 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2279172 0.0002876014  3.678825 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.09356118 0.1409742  1.476908 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1186569 0.005287922   2.78895 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4062554 2.590722e-11  6.987402 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3676378 2.192424e-09  6.212983 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3199104 5.507978e-14  7.519277 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4045367 3.196119e-11  6.952042 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3649159 2.934238e-09  6.159887 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3203568 5.082972e-14   7.52977 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 1968700, p-value = 9.703e-05
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.2440116 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 3.9051, p-value = 9.419e-05
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.1999243 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+      estimate   p.value  statistic   n gp   Method
+1 -0.009614365 0.8800134 -0.1511086 250  1 spearman
+[1] "semi partial - Spearman"
+      estimate   p.value  statistic   n gp   Method
+1 -0.007944734 0.9007318 -0.1248652 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.05168511 0.2244333  1.214824 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2936365 2.422676e-06  4.827677 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1630258 0.009971352  2.596893 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1404071 0.0009662502  3.300174 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1993381 0.00156979  3.197005 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.08313385 0.1910451   1.31109 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.08468728 0.04653397  1.990517 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3148589 3.915806e-07  5.213566 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3003253 1.385345e-06  4.948417 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate      p.value statistic   n gp  Method
+1 0.244719 8.821756e-09  5.751954 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2328362 0.0002099953  3.762722 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2315045 0.0002288079  3.739981 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1927589 5.879743e-06  4.530668 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1389323 0.02838497  2.204875 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1257776 0.04740861  1.992575 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1336168 0.001686179  3.140573 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.1680161 0.007888112  2.678659 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.1564997 0.0134228   2.49027 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1565048 0.0002345738  3.678539 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2698142 1.585248e-05  4.403789 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2697488 1.593073e-05  4.402637 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2149306 4.376669e-07    5.0518 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.07986812 0.2091292  1.259249 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.07027946 0.2692559  1.107266 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.09541301 0.02492143  2.242618 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+  estimate     p.value statistic   n gp   Method
+1 0.194326 0.002067217  3.113424 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1586946 0.01215993  2.526093 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1508698 0.0003909882  3.546093 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.0414669 0.5148371 0.6522645 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.03491438 0.5834621 0.5490573 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.06828095 0.1085163  1.604898 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.06062814 0.3407122 0.9546021 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.05265888 0.4080465 0.8287492 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.08337169 0.05004312  1.959595 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1870261 0.00305095  2.992143 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1742067 0.005847547  2.780388 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate      p.value statistic   n gp  Method
+1 0.156502 0.0002346341  3.678473 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMaxDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1354323 0.03266443  2.148278 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.08184973 0.1980145    1.2907 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate    p.value statistic   n gp  Method
+1 0.1039764 0.01452961  2.443896 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 2860200, p-value = 0.121
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.09832122 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = -1.6883, p-value = 0.09136
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+        tau 
+-0.08559474 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.05084109 0.4244418 -0.8000652 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value  statistic   n gp   Method
+1 -0.0504788 0.4277547 -0.7943492 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.04460112 0.2944915 -1.048319 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.1943264 0.002067179   3.11343 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1078892 0.08934575  1.705568 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.05574927 0.1900778  1.310349 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+  estimate    p.value statistic   n gp   Method
+1 0.159992 0.01146376  2.547285 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.06554228 0.3029425  1.032297 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.02243108 0.5980357 0.5272274 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2305143 0.0002438045 -3.723083 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.1941907 0.002082452 -3.111171 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1618961 0.0001416565 -3.805258 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+  estimate   p.value statistic   n gp   Method
+1 -0.10427 0.1006831 -1.647713 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.1042043 0.1008988 -1.646664 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08607825 0.04305138 -2.023211 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+     estimate  p.value statistic   n gp   Method
+1 -0.09327529 0.142198 -1.472355 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.09322941 0.1423952 -1.471625 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.09313055 0.02859897 -2.188971 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.09023213 0.1557323 -1.423918 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.09014565 0.1561307 -1.422542 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08255111 0.05234227 -1.940308 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.2709511 1.45499e-05 -4.423811 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 -0.250686 6.336661e-05 -4.069794 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1718606 5.357271e-05 -4.039467 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.09977264 0.1163257 -1.575913 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.09976037 0.1163708 -1.575718 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.07463304 0.07939637 -1.754199 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.07120641 0.2629755 -1.121944 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.06985578 0.2721603 -1.100558 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.07234984 0.08903048 -1.700534 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+     estimate  p.value  statistic   n gp   Method
+1 -0.04064664 0.523194 -0.6393404 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate  p.value  statistic   n gp   Method
+1 -0.04014691 0.528319 -0.6314672 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.05109557 0.2297641 -1.200967 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 -0.0643505 0.3118379 -1.013448 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate  p.value statistic   n gp   Method
+1 -0.06402762 0.314277 -1.008342 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.06657596 0.1176244 -1.564823 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.06657383 0.2953798 -1.048616 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate  p.value statistic   n gp   Method
+1 -0.06561814 0.302382 -1.033497 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.06022472 0.1569098 -1.415541 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthMinDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.07297253 0.2512894  1.149919 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate  p.value statistic   n gp   Method
+1 0.050709 0.425648 0.7979811 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 0.006739747 0.8741312 0.1584132 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 2139400, p-value = 0.004647
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1784744 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 2.7863, p-value = 0.005332
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.1379688 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.02743932 0.6665501 0.4314052 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.02571783 0.6863264 0.4043212 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.08508087 0.04552527  1.999768 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1070701 0.09181782 -1.692468 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.04465353 0.4830376 -0.702486 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.03081165 0.4689386 -0.7242071 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2177765 0.0005385855  3.506794 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.08921426 0.1604696  1.407725 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.07134535 0.0935573  1.676924 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2428965 0.0001080805   3.93527 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2323177 0.0002171409  3.753866 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1794691 2.461506e-05  4.218301 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1578072 0.01265732  2.511606 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1552498 0.01419221  2.469889 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1231529 0.003796097  2.894627 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.1008018 0.1125883  1.592335 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.09626473 0.1297955  1.519978 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate    p.value statistic   n gp  Method
+1 0.1001636 0.01855879  2.354277 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1138529 0.07291469   1.80105 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1090771 0.08585572  1.724572 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate  p.value statistic   n gp  Method
+1 0.1095177 0.010049  2.574139 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3084992 6.863924e-07  5.097056 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2965844 1.897006e-06  4.880793 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate      p.value statistic   n gp  Method
+1 0.209239 8.742369e-07  4.918021 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.0985358 0.1209445  1.556185 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.0956915 0.1321067  1.510843 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate    p.value statistic   n gp  Method
+1 0.1016286 0.01690761  2.388711 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1288114 0.04227015  2.041437 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1172164 0.06478945  1.854988 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate    p.value statistic   n gp  Method
+1 0.1046788 0.01387801  2.460406 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.07994623 0.2086827  1.260488 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.07687765 0.2267418  1.211813 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate    p.value statistic   n gp  Method
+1 0.0783746 0.06545438  1.842142 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.08455914 0.1835216  1.333728 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.08160071 0.1993871  1.286747 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate    p.value statistic   n gp  Method
+1 0.0929618 0.02888853  2.185004 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1085236 0.08746814  1.715715 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.0993472 0.1178986  1.569127 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.09293106 0.02894155  2.184282 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LabelLengthAvgDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.0646858 0.3093181  1.018751 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.05033619 0.4290627 0.7920995 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.06494893 0.1268653  1.526581 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 3053400, p-value = 0.006244
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1725222 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = -2.7224, p-value = 0.006482
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+-0.1547729 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate  p.value  statistic   n gp   Method
+1 -0.04993035 0.432798 -0.7856971 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate p.value  statistic   n gp   Method
+1 -0.04776933   0.453 -0.7516119 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.06770181 0.1115454 -1.591285 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2657293 2.150403e-05  -4.33201 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate      p.value statistic   n gp   Method
+1 -0.2534635 5.216175e-05 -4.117964 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 -0.213129 5.458457e-07 -5.009454 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2689824 1.687471e-05 -4.389153 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate      p.value statistic   n gp   Method
+1 -0.2265971 0.0003125731 -3.656361 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1966129 3.814305e-06 -4.621252 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2386798 0.0001432695 -3.862789 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate      p.value statistic   n gp   Method
+1 -0.2282848 0.0002809871 -3.685083 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1916727 6.633007e-06 -4.505137 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1177878 0.06348597 -1.864157 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.0992272 0.1183453 -1.567212 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 -0.1045149 0.01402777 -2.456552 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.06167255 0.3324441 -0.9711088 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.05632196 0.3761694 -0.8865764 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.07975937 0.06083535  -1.87469 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.07816152 0.2190557 -1.232174 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.07142341 0.2615199 -1.125381 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08981502 0.03476875 -2.111041 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+      estimate   p.value  statistic   n gp   Method
+1 -0.007170371 0.9103646 -0.1126941 250  1 spearman
+[1] "semi partial - Spearman"
+      estimate  p.value   statistic   n gp   Method
+1 -0.006345668 0.920638 -0.09973201 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.04601959 0.2794039 -1.081659 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.07100619 0.2643235 -1.118774 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.06793298 0.2856087 -1.070123 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.08402996 0.0482605 -1.975067 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1502298 0.01768554  -2.38815 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.1479361 0.0195167 -2.350865 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1385497 0.001127882 -3.256517 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1630906 0.00994145 -2.597953 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1628158 0.01006882 -2.593457 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1465901 0.0005700009 -3.445501 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1147338 0.07071055  -1.81517 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 -0.112982 0.07514834 -1.787095 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1139525 0.007398015 -2.678376 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.08044493 0.2058486 -1.268402 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate  p.value statistic   n gp   Method
+1 -0.06860366 0.280868 -1.080737 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08594765 0.04336872 -2.020141 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: ConfDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 -0.335464 5.798335e-08 -5.596533 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate      p.value statistic   n gp   Method
+1 -0.2860847 4.477795e-06 -4.692291 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 -0.226632 9.993993e-08 -5.326833 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 2962900, p-value = 0.0294
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1377862 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = -2.0876, p-value = 0.03683
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+-0.1058425 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+      estimate   p.value   statistic   n gp   Method
+1 -0.000873782 0.9890544 -0.01373257 250  1 spearman
+[1] "semi partial - Spearman"
+       estimate   p.value   statistic   n gp   Method
+1 -0.0008314929 0.9895841 -0.01306794 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.02847693 0.5032844 -0.669331 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1158718 0.06794386 -1.833418 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1152091 0.06954402 -1.822791 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.09212252 0.03036644 -2.165278 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1420523 0.02498407 -2.255399 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1419629 0.02507647  -2.25395 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 -0.1062324 0.0125277 -2.496921 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1092826 0.08526339 -1.727859 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1075115 0.09047882 -1.699527 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 -0.0864547 0.04214764 -2.032059 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.05402382 0.3959859 -0.8502927 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.04551094 0.4746662 -0.7160024 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.03187612 0.4537205 -0.7492268 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.1655426 0.008866568  2.638105 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate  p.value statistic   n gp   Method
+1 0.09939366 0.117726  1.569868 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.04305296 0.3115711  1.011931 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.1822497 0.003906852  2.913066 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.08809026 0.1658258   1.38985 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.03656434 0.3901087 0.8594202 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 0.001568472 0.9803536 0.0246505 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 0.001445022 0.9818997 0.02271033 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.01344376 0.7520127 -0.3159866 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.03755255 0.5553277 0.5906012 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.03356468 0.5981066 0.5278078 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.02086056 0.6239121 -0.4903135 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 -0.1012717 0.1109136 -1.599834 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.09736317 0.1254541 -1.537487 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.08720624 0.0403914 -2.049724 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.09979135 0.1162568 -1.576212 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.09908455 0.1188779 -1.564937 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08796952 0.03867162 -2.067664 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.06265919 0.3247527 -0.9867054 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.06131064 0.3352945 -0.9653885 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate  p.value statistic   n gp  Method
+1 -0.07221043 0.089648 -1.697257 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1234261 0.05174194  1.954739 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.04860438 0.4451317 0.7647816 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.01746109 0.6815044 0.4104111 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMaxDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1342909 0.03417381 -2.129839 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.1342252 0.0342624 -2.128779 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.09592525 0.02415479 -2.254658 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 1845800, p-value = 2.825e-06
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.2912027 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 4.4548, p-value = 8.399e-06
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.2187411 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.03139318 0.6220091 -0.4936258 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate  p.value  statistic   n gp   Method
+1 -0.02247536 0.724152 -0.3533172 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.02993762 0.4816424 0.7036635 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2136358 0.0006902732  3.436896 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1934079 0.002172585  3.098142 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1583775 0.0001972162  3.722556 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2896646 3.353971e-06   4.75635 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2895221 3.393025e-06  4.753796 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2216207 1.898152e-07  5.209045 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.2535611 5.18044e-05  4.119658 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2421483 0.0001136644  3.922393 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1952329 4.457623e-06  4.588818 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2455833 9.007602e-05  3.981579 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate     p.value statistic   n gp   Method
+1 0.224277 0.000361411   3.61693 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1663016 9.275321e-05  3.908807 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3043904 9.795767e-07  5.022186 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1827594 0.003806155  2.921494 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1480308 0.0005026038  3.479365 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2404191 0.0001276221  3.892658 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate  p.value statistic   n gp   Method
+1 0.0417494 0.511975 0.6567159 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.03867511 0.3633331 0.9090323 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.1091395 0.0856756  1.725569 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.08872622 0.1627791  1.399963 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate    p.value statistic   n gp  Method
+1 0.1040294 0.01447952  2.445142 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.04072753 0.5223668 -0.6406149 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.02276061 0.7207958 -0.3578037 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate  p.value statistic   n gp  Method
+1 0.03846585 0.365935 0.9041138 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2555815 4.490158e-05  4.154768 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1980213 0.001688587  3.175022 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1629675 0.0001279139  3.830441 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.0964924 0.1288863  1.523607 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.08038323 0.2061977  1.267423 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.09811138 0.0211083  2.306042 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.0759387 0.2324827  1.196927 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.06099183 0.3378184 0.9603497 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.08263836 0.05209369  1.942359 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2305835 0.0002427279  3.724263 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1233124 0.05195947  1.952911 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate    p.value statistic   n gp  Method
+1 0.107691 0.01136715  2.531205 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpMinDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2357141 0.0001741597  3.811949 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate      p.value statistic   n gp   Method
+1 0.218331 0.0005208004  3.516169 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1721727 5.192183e-05  4.046803 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 3267400, p-value = 4.614e-05
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2546999 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = -3.9326, p-value = 8.402e-05
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+-0.1915307 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.01139567 0.8579993 0.1791086 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 0.009203658 0.8851028  0.144653 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate  p.value  statistic   n gp  Method
+1 -0.02944385 0.488901 -0.6920579 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 -0.183677 0.003630783 -2.936673 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.1710871 0.006807724 -2.729083 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1461342 0.0005930231 -3.434785 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2518567 5.839254e-05 -4.090085 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate      p.value statistic   n gp   Method
+1 -0.2516153 5.938701e-05   -4.0859 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1901855 7.815308e-06 -4.470182 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2159298 0.0006019571 -3.475596 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.2068722 0.00102507 -3.323138 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 -0.1712129 5.7159e-05 -4.024242 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.2051177 0.001133537 -3.293711 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.1874351 0.002986224 -2.998923 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1393751 0.001053194 -3.275917 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2800648 7.215359e-06 -4.585053 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1353692 0.03274641 -2.147258 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1138483 0.007452276 -2.675928 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.1930972 0.002209334  3.092972 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.03353183 0.5984651 0.5272905 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.01530522 0.7190425 0.3597388 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 -0.0826105 0.1938635 -1.302779 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.07011137 0.2704057 -1.104605 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.09638699 0.02348133 -2.265511 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.04369775 0.4924626 0.6874207 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.02901574 0.6486397 0.4562102 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.03304202 0.4373769 -0.7766303 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+    estimate      p.value statistic   n gp   Method
+1 -0.2078982 0.0009661466 -3.340362 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.1734214 0.006077085 -2.767464 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1439324 0.0007168976 -3.383034 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.09812582 0.1225066 -1.549647 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.08799981 0.1662625 -1.388412 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.09271452 0.0293174 -2.179192 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.07610554 0.2314552 -1.199571 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate  p.value statistic   n gp   Method
+1 -0.06630397 0.297346 -1.044347 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.07753942 0.06837736 -1.822512 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.1686279 0.007661413 -2.688699 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.07658772 0.2285036 -1.207216 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.07086667 0.09577851 -1.665673 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpAvgDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1999513 0.00151712 -3.207248 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.1876414 0.002954049 -3.002344 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1556127 0.0002546155 -3.657572 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 1672400, p-value = 5.788e-09
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+     rho 
+0.357795 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 5.5991, p-value = 2.155e-08
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.2749318 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.07433906 0.2424979  1.171572 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.05344174 0.4011027 0.8411048 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.07246754 0.08851184  1.703301 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3745798 1.029737e-09  6.349242 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3744889 1.040093e-09  6.347451 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2855867 1.912873e-11  6.712523 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+  estimate      p.value statistic   n gp   Method
+1 0.429123 1.410131e-12  7.466622 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3970278 7.888565e-11  6.798581 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.3008312 1.54006e-12  7.070833 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4301704 1.227552e-12  7.488979 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.4135565 1.047486e-11  7.138609 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3096118 3.407779e-13  7.277217 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3182981 2.874908e-07  5.276895 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate      p.value statistic   n gp   Method
+1 0.281689 6.350846e-06  4.613927 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2153052 4.179335e-07  5.060603 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3333833 7.077467e-08  5.557466 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.3071437 7.72307e-07  5.072322 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2405119 1.576071e-08   5.65307 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2420158 0.0001146815  3.920112 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1967496 0.001811076  3.153807 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1849545 1.378675e-05   4.34723 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2718262 1.361706e-05  4.439237 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2306983 0.0002409504  3.726222 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2099494 8.026675e-07  4.934718 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1661149 0.00863105  2.647484 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1284422 0.04286928  2.035488 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1255386 0.003170538  2.950701 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3473175 1.810323e-08  5.820887 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3452319 2.229668e-08  5.781188 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2611585 8.338122e-10  6.138353 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+  estimate     p.value statistic   n gp   Method
+1 0.167611 0.008041438  2.672015 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate  p.value statistic   n gp   Method
+1 0.1346205 0.033732  2.135163 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1425529 0.000806337   3.35061 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.1661784 0.008605299  2.648524 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1334698 0.03529592   2.11658 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1417811 0.0008607908  3.332469 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3205055 2.352888e-07  5.317665 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3077193 7.346362e-07  5.082821 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2427978 1.151217e-08  5.706797 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMaxDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.3489904 1.53002e-08  5.852801 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3477242 1.737939e-08  5.828639 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2642114 5.294764e-10   6.21011 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 1623500, p-value = 7.631e-10
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3765823 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 6.0404, p-value = 1.537e-09
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.2966026 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.02453062 0.7000915 -0.3856451 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01214225 0.8488042 -0.1908445 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.00660328 0.8766592 0.1552056 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3054541 8.938655e-07   5.04154 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2687825 1.712957e-05  4.385636 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2278632 8.519205e-08  5.355772 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3769129 7.955455e-10  6.395315 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3768666 7.996489e-10  6.394398 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2935474 5.213702e-12  6.899633 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3495504 1.445914e-08    5.8635 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3394604 3.937458e-08   5.67183 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2802514 4.484431e-11  6.587119 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3463341 1.997584e-08  5.802155 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3313445 8.591986e-08  5.519271 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.2608578 8.71714e-10  6.131286 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3555838 7.808297e-09  5.979213 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3178228 3.001023e-07   5.26813 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.2674441 3.25553e-10  6.286094 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2526923 5.506972e-05  4.104579 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1412173 0.02585804   2.24187 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate      p.value statistic   n gp  Method
+1 0.166405 9.182466e-05  3.911237 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2898832 3.294893e-06  4.760268 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1924853 0.002283378  3.082792 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1969448 3.673409e-06  4.629053 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2073163 0.0009991673  3.330593 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.1602997 0.0113039  2.552313 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1590162 0.0001858091  3.737568 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4045379 3.195668e-11  6.952065 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2658221 2.135685e-05  4.333637 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2309428 5.694006e-08  5.428154 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+   estimate  p.value statistic   n gp   Method
+1 0.0620043 0.329845 0.9763527 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.0278289 0.6621058 0.4375349 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.06269908 0.1405625    1.4737 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.03906104 0.5395421 0.6143612 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.0154965 0.8077615 0.2435759 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate  p.value statistic   n gp  Method
+1 0.04651486 0.274262    1.0933 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3259665 1.423321e-07  5.418942 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2618071 2.868493e-05  4.263326 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2362955 2.792603e-08  5.553966 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpMinDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3227056 1.923859e-07  5.358394 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2774604 8.839198e-06  4.538841 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate      p.value statistic   n gp  Method
+1 0.236916 2.568687e-08  5.568549 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 2997300, p-value = 0.0169
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1509775 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = -2.3611, p-value = 0.01822
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+-0.1149943 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+  estimate     p.value statistic   n gp   Method
+1 0.183729 0.003621071  2.937533 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate    p.value statistic   n gp   Method
+1 0.143255 0.02377007  2.274893 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.07039858 0.09799121  1.654671 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01281291 0.8405616 -0.2013872 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01046355 0.8695062 -0.1644566 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.02854639 0.5022438 -0.6709635 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1351237 0.03306675 -2.143293 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.1325607 0.0365745 -2.101905 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 -0.1051643 0.01344288 -2.471816 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.08596911 0.1762958 -1.356131 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.07823057 0.2186476  -1.23327 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 -0.0749369 0.07818065 -1.761341 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1246901 0.04937336 -1.975073 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1227863 0.05297617 -1.944452 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.09304327 0.02874842 -2.186919 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1187392 0.06136313  -1.87943 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1141566 0.07214856 -1.805917 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.09785837 0.02144284 -2.300095 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.04469344 0.4826462 0.7031152 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.03462792 0.5865564 0.5445471 250  1 spearman
+[1] "semi partial - Kendall "
+      estimate   p.value  statistic   n gp  Method
+1 -0.007015701 0.8690232 -0.1648993 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01302499 0.8379585 -0.2047212 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01086499 0.8645469 -0.1707668 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.03476946 0.4137955 -0.8172327 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1204776 0.05763552 -1.907348 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.1197542 0.0591634 -1.895727 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08104569 0.05678993 -1.904924 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2183102 0.0005214558  3.515818 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.1434518 0.0235764  2.278083 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate  p.value statistic   n gp  Method
+1 0.06106022 0.151236  1.435179 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 0.1571413 0.01304225  2.500738 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1179711 0.06307236  1.867099 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.03129314 0.4620203 0.7355242 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.1884179 0.002835724  3.015226 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.1351146 0.0330787  2.143146 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.04680149 0.2713158  1.100038 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.05115252 0.4216061 -0.8049788 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.04307316 0.4986743 -0.6775767 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.05665921 0.1829468 -1.331736 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpAvgDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.06107589 0.3371517 -0.9616783 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.05362039 0.3995281 -0.8439247 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.05728225 0.1781798 -1.346381 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 1581300, p-value = 1.196e-10
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3927725 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 6.3685, p-value = 1.909e-10
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+     tau 
+0.310166 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.02152751 0.7353419 -0.3384097 250  1 spearman
+[1] "semi partial - Spearman"
+      estimate   p.value statistic   n gp   Method
+1 -0.009396936 0.8827072 -0.147691 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate   p.value statistic   n gp  Method
+1 0.0334734 0.4314167 0.7867697 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3198004 2.508851e-07  5.304631 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.2692662 1.65192e-05  4.394144 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2277395 8.657295e-08  5.352864 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3839605 3.603607e-10   6.53535 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3792399 6.137848e-10  6.441405 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3010549 1.482761e-12  7.076092 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3633566 3.463165e-09  6.129552 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3494099 1.466582e-08  5.860815 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2846601 2.220384e-11  6.690744 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3892443 1.965425e-10  6.641216 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3885884 2.120271e-10  6.628034 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3061645 6.191816e-13   7.19619 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+  estimate      p.value statistic   n gp   Method
+1 0.382738 4.139872e-10  6.510964 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3800271 5.619549e-10  6.457032 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3042957 8.535749e-13  7.152265 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2907098 3.080286e-06  4.775094 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.2421765 0.000113449  3.922878 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.2271826 9.30632e-08  5.339773 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3229678 1.878056e-07  5.363254 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2896394 3.360846e-06  4.755898 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2509687 3.660444e-09   5.89885 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2394888 0.0001357809  3.876676 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1923507 0.002299967  3.080553 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1940722 5.078105e-06  4.561535 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+  estimate   p.value statistic   n gp   Method
+1 0.135289 0.0328507  2.145964 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 0.0607207 0.3399743 0.9560648 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.08747001 0.03978989  2.055923 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3948594 1.019745e-10  6.754567 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2964338 1.920975e-06  4.878077 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2582149 1.285746e-09  6.069168 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.01977148 0.7562194  0.310794 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 0.003069073 0.9615683 0.04823449 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate   p.value statistic   n gp  Method
+1 0.0126784 0.7657053 0.2979972 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3571534 6.637748e-09  6.009455 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3423574 2.963968e-08  5.726631 250  1 spearman
+[1] "semi partial - Kendall "
+  estimate     p.value statistic   n gp  Method
+1 0.282383 3.19651e-11  6.637222 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3448184 2.323301e-08  5.773327 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.2726699 1.27715e-05  4.454121 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2548287 2.103878e-09  5.989577 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 1576200, p-value = 9.487e-11
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3947374 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = 6.4059, p-value = 1.495e-10
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.3119865 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.03229841 0.6119947 -0.5078744 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01325866 0.8350927 -0.2083945 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate   p.value statistic   n gp  Method
+1 0.01779964 0.6756777 0.4183686 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3250704 1.546747e-07  5.402282 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2823416 6.031989e-06  4.625542 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2394661 1.817945e-08   5.62849 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3887249 2.087101e-10  6.630776 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.3867745 2.61279e-10  6.591637 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3069835 5.375961e-13  7.215441 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3664393 2.493458e-09  6.189581 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3536189 9.556943e-09  5.941436 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2928317 5.868268e-12  6.882811 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3759977 8.805063e-10  6.377224 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3702569 1.652018e-09  6.264248 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2924382 6.261854e-12  6.873561 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3779671 7.075232e-10  6.416178 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3698326 1.729829e-09   6.25593 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.3010449 1.485276e-12  7.075857 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+  estimate      p.value statistic   n gp   Method
+1 0.287955 3.852194e-06  4.725732 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2312774 0.0002321705  3.736103 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2189725 2.649649e-07  5.146802 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+   estimate     p.value statistic   n gp   Method
+1 0.3201303 2.43468e-07  5.310728 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate      p.value statistic   n gp   Method
+1 0.278901 7.902444e-06  4.564389 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2441505 9.546679e-09  5.738592 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2421086 0.0001139684  3.921709 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.1944548 0.002052818  3.115569 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.1959656 4.104109e-06  4.606039 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+   estimate   p.value statistic   n gp   Method
+1 0.1334852 0.0352746  2.116828 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.05295695 0.4053944 0.8334533 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 0.07541682 0.07629146  1.772621 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4084054 1.988854e-11  7.031759 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate     p.value statistic   n gp   Method
+1 0.2928677 2.58109e-06  4.813851 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2549026 2.081527e-09  5.991314 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.04711461 0.4592234 0.7412874 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 0.007313471 0.9085834 0.1149433 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate   p.value statistic   n gp  Method
+1 0.0164152 0.6996239 0.3858283 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3518169 1.148897e-08  5.906869 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3268915 1.305873e-07  5.436155 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2771949 7.255446e-11  6.515279 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: AttImpSumRatio 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.3442593 2.455922e-08  5.762707 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.2925158 2.656871e-06  4.807524 250  1 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2636256 5.779045e-10  6.196342 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 3120600, p-value = 0.001624
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1983325 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = -3.0981, p-value = 0.001948
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+-0.1534107 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01474013 0.8169749 -0.2316846 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01333897 0.8341082 -0.2096571 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.04444355 0.2962006 -1.044616 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1249906 0.04882379 -1.979908 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1164233 0.06663512 -1.842264 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 -0.1002668 0.01843792 -2.356704 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.1886986 0.002794036 -3.019883 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.1859898 0.003220708 -2.974967 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1424793 0.0008113901  -3.34888 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1441717 0.02287931 -2.289757 250  1 spearman
+[1] "semi partial - Spearman"
+   estimate   p.value statistic   n gp   Method
+1 -0.131981 0.0374102  -2.09255 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1165998 0.006132727 -2.740599 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: ConfDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1328447 0.03617094 -2.106489 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1132903 0.07435128 -1.792035 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08810382 0.03837554 -2.070821 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.1923801 0.002296328 -3.081043 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate  p.value statistic   n gp   Method
+1 -0.07575803 0.233599 -1.194062 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.07329549 0.08493174 -1.722761 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+    estimate  p.value statistic   n gp   Method
+1 0.08673566 0.172457  1.368315 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.04638485 0.4662158 0.7297807 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 0.001074174 0.9798574 0.02524774 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.05743592 0.3667869 0.9041689 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 0.02608634 0.6820745 0.4101186 250  1 spearman
+[1] "semi partial - Kendall "
+      estimate   p.value  statistic   n gp  Method
+1 -0.007427904 0.8614035 -0.1745879 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1133636 0.07416284 -1.793209 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1088411 0.08654029 -1.720795 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.09825893 0.0209153  -2.30951 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 0.03045452 0.6324672 0.4788525 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate  p.value statistic   n gp   Method
+1 0.02446022 0.700911 0.3845375 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.03798641 0.3719403 -0.8928449 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+   estimate    p.value statistic   n gp   Method
+1 -0.144464 0.02260131   -2.2945 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1216465 0.05523598 -1.926129 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1135698 0.007599084 -2.669383 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+    estimate   p.value statistic   n gp   Method
+1 -0.1018763 0.1087876 -1.609485 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value statistic   n gp   Method
+1 -0.09765578 0.1243168 -1.542152 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.09911357 0.01982743 -2.329598 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+     estimate   p.value statistic   n gp   Method
+1 -0.06531007 0.3046624 -1.028624 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.06068301 0.3402747 -0.9554692 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08419798 0.04781413 -1.979017 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumDelta 
+y: target 
+control: LitImpSumRatio 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1609667 0.01096409 -2.563215 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1564057 0.01347936 -2.488737 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1268658 0.002864696 -2.981896 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+[1] "Spearman"
+
+	Spearman's rank correlation rho
+
+data:  x and y
+S = 3139900, p-value = 0.001069
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2057366 
+
+[1] "Kendall"
+
+	Kendall's rank correlation tau
+
+data:  x and y
+z = -3.1741, p-value = 0.001503
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+-0.1545899 
+
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: lenDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01644376 0.7962603 -0.2584689 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01483324 0.8158394 -0.2331483 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.04265099 0.3161105 -1.002483 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: LabelLengthMaxDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01933084 0.7614868 -0.3038647 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01168277 0.8544609 -0.1836216 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.02948354 0.4883155 -0.6929906 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: LabelLengthMinDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.1952656 0.001964227 -3.129074 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1356911 0.03233014 -2.152461 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate    p.value statistic   n gp  Method
+1 -0.1038915 0.01461021   -2.4419 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: LabelLengthAvgDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1223031 0.05392472 -1.936683 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.0951719 0.1342288 -1.502564 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08958089 0.03524447 -2.105538 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: ConfDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 -0.352176 1.107607e-08 -5.913752 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.3003367 1.38401e-06 -4.948624 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.2265362 1.011858e-07 -5.324581 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: LitImpMaxDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.2034679 0.001245064 -3.266069 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate   p.value statistic   n gp   Method
+1 -0.2033684 0.0012521 -3.264404 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate      p.value statistic   n gp  Method
+1 -0.1478408 0.0005110454 -3.474899 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: LitImpMinDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1083181 0.08807275 -1.712428 250  1 spearman
+[1] "semi partial - Spearman"
+  estimate   p.value statistic   n gp   Method
+1 -0.10033 0.1142897 -1.584807 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate    p.value statistic   n gp  Method
+1 -0.08789678 0.03883277 -2.065955 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: LitImpAvgDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1297534 0.04077334  -2.05662 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1217652 0.05499701 -1.928036 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1098042 0.009855086 -2.580873 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: AttImpMaxDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.1883959 0.002839029  -3.01486 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate     p.value statistic   n gp   Method
+1 -0.1877123 0.002943052 -3.003521 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1350809 0.001498437 -3.174986 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: AttImpMinDelta 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01687178 0.7910777 -0.2651986 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 -0.01450626 0.8198288 -0.2280078 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.03623899 0.3943401 -0.8517731 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: AttImpAvgDelta 
+[1] "partial"
+    estimate    p.value statistic   n gp   Method
+1 -0.1537682 0.01515414 -2.445745 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1349978 0.03323211 -2.141259 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1118899 0.008541074 -2.629897 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: AttImpSumDelta 
+[1] "partial"
+    estimate  p.value statistic   n gp   Method
+1 0.04769955 0.453661 0.7505116 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate  p.value statistic   n gp   Method
+1 0.03771909 0.553574 0.5932241 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value  statistic   n gp  Method
+1 -0.03935713 0.3549333 -0.9250627 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: AttImpSumRatio 
+[1] "partial"
+     estimate   p.value  statistic   n gp   Method
+1 0.003071201 0.9615417 0.04826794 250  1 spearman
+[1] "semi partial - Spearman"
+     estimate   p.value  statistic   n gp   Method
+1 0.002609588 0.9673186 0.04101303 250  1 spearman
+[1] "semi partial - Kendall "
+     estimate   p.value statistic   n gp  Method
+1 -0.05325247 0.2106926 -1.251663 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: LitImpSumRatio 
+y: target 
+control: LitImpSumDelta 
+[1] "partial"
+    estimate     p.value statistic   n gp   Method
+1 -0.1660873 0.008642281 -2.647032 250  1 spearman
+[1] "semi partial - Spearman"
+    estimate    p.value statistic   n gp   Method
+1 -0.1613812 0.01075751 -2.569992 250  1 spearman
+[1] "semi partial - Kendall "
+    estimate     p.value statistic   n gp  Method
+1 -0.1248721 0.003335105 -2.935035 250  1 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpMinDelta LitImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2566094 4.325719e-05  4.164199 250  2 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1266009 0.04640819  2.001764 250  2 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1333213 0.001764563  3.127239 250  2 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpAvgDelta LitImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4167359 7.729707e-12  7.190372 250  2 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3011316 1.359391e-06  4.952969 250  2 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2716307 1.872076e-10  6.371484 250  2 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpMaxDelta LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2943012 2.403993e-06  4.829835 250  2 spearman
+[1] "semi partial - Spearman"
+  estimate     p.value statistic   n gp   Method
+1  0.21124 0.000814968   3.38966 250  2 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2169458 3.603886e-07  5.088773 250  2 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpMinDelta LitImpMinDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2566094 4.325719e-05  4.164199 250  2 spearman
+[1] "semi partial - Spearman"
+   estimate    p.value statistic   n gp   Method
+1 0.1266009 0.04640819  2.001764 250  2 spearman
+[1] "semi partial - Kendall "
+   estimate     p.value statistic   n gp  Method
+1 0.1333213 0.001764563  3.127239 250  2 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpAvgDelta LitImpAvgDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.4167359 7.729707e-12  7.190372 250  2 spearman
+[1] "semi partial - Spearman"
+   estimate      p.value statistic   n gp   Method
+1 0.3011316 1.359391e-06  4.952969 250  2 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2716307 1.872076e-10  6.371484 250  2 kendall
+
+
+original rows: 250 
+removed rows with missing, now rows: 250 
+x: lenDelta 
+y: target 
+control: AttImpMaxDelta LitImpMaxDelta 
+[1] "partial"
+   estimate      p.value statistic   n gp   Method
+1 0.2943012 2.403993e-06  4.829835 250  2 spearman
+[1] "semi partial - Spearman"
+  estimate     p.value statistic   n gp   Method
+1  0.21124 0.000814968   3.38966 250  2 spearman
+[1] "semi partial - Kendall "
+   estimate      p.value statistic   n gp  Method
+1 0.2169458 3.603886e-07  5.088773 250  2 kendall

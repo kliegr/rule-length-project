@@ -1,0 +1,277 @@
+========================= CHI SQUARE ANALYSIS ====================================
+==================================================================================
+========================= r1len r2len ==================================
+             lower higher samevalue
+strong          16     17        11
+weak            24     19        24
+nopreference    17     17        15
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.749884819128
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    40     36        35
+no preference    17     17        15
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.75
+p value 0.961335078457
+========================= r1DepthMax r2DepthMax ==================================
+             lower higher samevalue
+strong           0      0        44
+weak             0      0        67
+nopreference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+There was a zero frequency
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref     0      0       111
+no preference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.0
+There was a zero frequency
+========================= r1DepthMin r2DepthMin ==================================
+             lower higher samevalue
+strong           0      0        44
+weak             0      0        67
+nopreference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+There was a zero frequency
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref     0      0       111
+no preference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.0
+There was a zero frequency
+========================= r1LabelLengthSum r2LabelLengthSum ==================================
+             lower higher samevalue
+strong          16     27         1
+weak            32     32         3
+nopreference    24     24         1
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.599533587941
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    48     59         4
+no preference    24     24         1
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 16.125
+p value 0.730375374531
+========================= r1LabelLengthMax r2LabelLengthMax ==================================
+             lower higher samevalue
+strong          12     25         7
+weak            25     30        12
+nopreference    19     19        11
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.507236917737
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    37     55        19
+no preference    19     19        11
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 7.0
+p value 0.436865738143
+========================= r1LabelLengthMin r2LabelLengthMin ==================================
+             lower higher samevalue
+strong          16     25         3
+weak            23     33        11
+nopreference  21.5   21.5         6
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.483439588953
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    39     58        14
+no preference  21.5   21.5         6
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 8.9375
+p value 0.556932852959
+========================= r1LabelLengthAvg r2LabelLengthAvg ==================================
+             lower higher samevalue
+strong          17     26         1
+weak            26     32         9
+nopreference    22     22         5
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.292749042429
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    43     58        10
+no preference    22     22         5
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 7.84375
+p value 0.691792696416
+========================= r1minDistance r2minDistance ==================================
+             lower higher samevalue
+strong           0      0        44
+weak             0      0        67
+nopreference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+There was a zero frequency
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref     0      0       111
+no preference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.0
+There was a zero frequency
+========================= r1maxDistance r1maxDistance ==================================
+             lower higher samevalue
+strong           0      0        44
+weak             0      0        67
+nopreference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+There was a zero frequency
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref     0      0       111
+no preference     0      0        49
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.0
+There was a zero frequency
+========================= r1PageRankMax r2PageRankMax ==================================
+             lower higher samevalue
+strong          23     16         5
+weak            39     22         6
+nopreference  22.5   22.5         4
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.662170095283
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    62     38        11
+no preference  22.5   22.5         4
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 249.455588396
+p value 0.372770609766
+========================= r1PageRankMin r2PageRankMin ==================================
+             lower higher samevalue
+strong          26     15         3
+weak            35     20        12
+nopreference  19.5   19.5        10
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.218790123821
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    61     35        15
+no preference  19.5   19.5        10
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 93.2941697285
+p value 0.195104090289
+========================= r1PageRankAvg r2PageRankAvg ==================================
+             lower higher samevalue
+strong          28     16         0
+weak            44     23         0
+nopreference  24.5   24.5         0
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+WARNING: samevalue column ignored (all zeros)
+p value 0.20351697776
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    72     39         0
+no preference  24.5   24.5         0
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 159.030403964
+WARNING:  samevalue column ignored (all zeros)
+p value 0.110450552578
+========================= r1conf r2conf ==================================
+             lower higher samevalue
+strong          19     22         3
+weak            28     34         5
+nopreference  23.5   23.5         2
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.931692495037
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    47     56         8
+no preference  23.5   23.5         2
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.025885154762
+p value 0.664578234911
+========================= r1supp r2supp ==================================
+             lower higher samevalue
+strong          16      8         0
+weak            24     12         0
+nopreference  12.5   12.5         0
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 85 ; Sum of counts in contingency table: 85.0
+WARNING: samevalue column ignored (all zeros)
+p value 0.35421505941
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    40     20         0
+no preference  12.5   12.5         0
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 85 ; Sum of counts in contingency table: 85.0
+Average difference: 0.0943235294118
+WARNING:  samevalue column ignored (all zeros)
+p value 0.231772409369
+========================= r1LitImpMax r2LitImpMax ==================================
+             lower higher samevalue
+strong          15     24         5
+weak            18     28        21
+nopreference  17.5   17.5        14
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.116630322234
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    33     52        26
+no preference  17.5   17.5        14
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.4375
+p value 0.424010962658
+========================= r1LitImpMin r2LitImpMin ==================================
+             lower higher samevalue
+strong          17     18         9
+weak            22     34        11
+nopreference  19.5   19.5        10
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.784522820337
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    39     52        20
+no preference  19.5   19.5        10
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.51875
+p value 0.710445387697
+========================= r1LitImpAvg r2LitImpAvg ==================================
+             lower higher samevalue
+strong          19     23         2
+weak            23     37         7
+nopreference  21.5   21.5         6
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+p value 0.528013218186
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref    42     60         9
+no preference  21.5   21.5         6
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 160 ; Sum of counts in contingency table: 160.0
+Average difference: 0.41875
+p value 0.443948199371
+========================= r1AttImpMax r2AttImpMax ==================================
+             lower higher samevalue
+strong           0      0         0
+weak             0      0         0
+nopreference     0      0         0
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 0 ; Sum of counts in contingency table: 0.0
+WARNING: samevalue column ignored (all zeros)
+p value nan
+
+== simpler version merging weak and strong to 'positive preference' ==
+              lower higher samevalue
+positive pref     0      0         0
+no preference     0      0         0
+CHECKSUM: Number of total rows:  160 ; Number of rows with non-missing input: 0 ; Sum of counts in contingency table: 0.0
+Average difference: nan
+WARNING:  samevalue column ignored (all zeros)

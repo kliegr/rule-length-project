@@ -1,0 +1,23 @@
+variable & rho & p \\
+lenDelta & 0.445908009292 & 1.28791037554e-13 \\
+DepthMaxDelta data not available
+DepthMinDelta data not available
+LabelLengthSumDelta & 0.458688701715 & 2.06666140132e-14 \\
+LabelLengthMaxDelta & 0.244011566719 & 9.70267944978e-05 \\
+LabelLengthAvgDelta & 0.178474383981 & 0.00464685270575 \\
+LabelLengthMinDelta & -0.0983212212771 & 0.121006369369 \\
+MaxDistanceDelta data not available
+MinDepthLCSDelta data not available
+PageRankMaxDelta data not available
+PageRankMinDelta data not available
+PageRankAvgDelta data not available
+ConfDelta & -0.172522171042 & 0.00624410271954 \\
+SuppDelta data not available
+LitImpMaxDelta & -0.137786217519 & 0.0294006543799 \\
+LitImpMinDelta & 0.29120270411 & 2.82522517102e-06 \\
+LitImpAvgDelta & -0.254699853196 & 4.61385921282e-05 \\
+LitImpSumDelta & -0.201688397474 & 0.00134593025548 \\
+AttImpSumDelta & 0.392772529079 & 1.19618917626e-10 \\
+AttImpMaxDelta & 0.357795013952 & 5.78756653639e-09 \\
+AttImpMinDelta & 0.376582285185 & 7.63051128327e-10 \\
+AttImpAvgDelta & -0.150977494775 & 0.0168984426904 \\

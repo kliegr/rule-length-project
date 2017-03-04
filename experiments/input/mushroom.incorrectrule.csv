@@ -1,0 +1,2 @@
+"r1","r2","r1len","r2len","r1conf","r2conf","r1sup","r2sup","r1selectionval","r2selectionval","label","r1truepos","r2truepos","r1falsepos","r2falsepos"
+"{odor=p} => {label=p}","{gill-size=b,stalk-surface-above-ring=s,ring-number=o,stalk-surface-below-ring=s,spore-print-color=n,cap-color=e,cap-shape=x} => {label=p}",1,7,,,,,,,,,,,

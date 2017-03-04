@@ -1,0 +1,23 @@
+variable & rho & p \\
+lenDelta & nan & nan \\
+DepthMaxDelta & nan & nan \\
+DepthMinDelta & nan & nan \\
+LabelLengthSumDelta & 0.222720497386 & 0.141411768678 \\
+LabelLengthMaxDelta & 0.222720497386 & 0.141411768678 \\
+LabelLengthAvgDelta & 0.222720497386 & 0.141411768678 \\
+LabelLengthMinDelta & -0.222720497386 & 0.141411768678 \\
+MaxDistanceDelta & nan & nan \\
+MinDepthLCSDelta data not available
+PageRankMaxDelta & -0.046667507985 & 0.76081431182 \\
+PageRankMinDelta & 0.046667507985 & 0.76081431182 \\
+PageRankAvgDelta & -0.046667507985 & 0.76081431182 \\
+ConfDelta & 0.464504498083 & 0.00130699469503 \\
+SuppDelta & -0.0206205267841 & 0.893048043245 \\
+LitImpMaxDelta & 0.143314142682 & 0.347634529925 \\
+LitImpMinDelta & -0.143314142682 & 0.347634529925 \\
+LitImpAvgDelta & 0.143314142682 & 0.347634529925 \\
+LitImpSumDelta & 0.143314142682 & 0.347634529925 \\
+AttImpSumDelta data not available
+AttImpMaxDelta data not available
+AttImpMinDelta data not available
+AttImpAvgDelta data not available

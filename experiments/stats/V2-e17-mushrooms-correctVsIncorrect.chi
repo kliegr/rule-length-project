@@ -1,0 +1,11 @@
+========================= CHI SQUARE ANALYSIS ====================================
+==================================================================================
+
+== simpler version merging weak and strong to 'positive preference' ==
+                      correct incorrect
+positive pref-longer       14        20
+positive pref-shorter       9         5
+no preference               2         0
+CHECKSUM: Number of total rows:  50 ; Sum of counts in contingency table: 50.0
+Average difference: 6.0
+p value 0.122353566917

@@ -1,0 +1,2 @@
+columns = ['r1id','r2id', 'r1len','r2len',"r1","r2", 'correctlyclassifiedoverlap','coverageoverlap', 'label','r1conf', 'r2conf','r1supp', 'r2supp','intersectionwholerule','literalintersectionlength','r1correct','r2correct','r1coverage','r2coverage','cluer1','cluer2','tag']
+columnTypes = {'literalintersectionlength':float} 

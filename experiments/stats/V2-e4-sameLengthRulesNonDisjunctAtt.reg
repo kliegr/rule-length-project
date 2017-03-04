@@ -1,0 +1,1097 @@
+using stats/datafiles/V2-e4-sameLengthRulesNonDisjunctAtt.csv 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7707  0.3825    -4.6298
+-1|0  -1.0745  0.3095    -3.4713
+0|1    0.7205  0.2874     2.5074
+1|2    2.3026  0.4690     4.9091
+
+Residual Deviance: 159.0187 
+AIC: 167.0187 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                Value Std. Error t value
+LitImpMaxDelta 0.5457      1.893  0.2882
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7831  0.3855    -4.6249
+-1|0  -1.0833  0.3116    -3.4772
+0|1    0.7145  0.2881     2.4796
+1|2    2.2940  0.4699     4.8820
+
+Residual Deviance: 158.9345 
+AIC: 168.9345 
+    2.5 %    97.5 % 
+-3.228300  4.260356 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+               Estimate Std. Error z value  Pr(>|z|)    
+LitImpMaxDelta  0.54574    1.89331  0.2882 0.7731576    
+-2|-1          -1.78308    0.38554 -4.6249 3.749e-06 ***
+-1|0           -1.08334    0.31155 -3.4772 0.0005066 ***
+0|1             0.71446    0.28814  2.4796 0.0131546 *  
+1|2             2.29401    0.46989  4.8820 1.050e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                Value Std. Error t value
+LitImpMinDelta 0.2443     0.7994  0.3056
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7817  0.3846    -4.6322
+-1|0  -1.0846  0.3117    -3.4797
+0|1    0.7128  0.2884     2.4713
+1|2    2.2953  0.4696     4.8874
+
+Residual Deviance: 158.9251 
+AIC: 168.9251 
+    2.5 %    97.5 % 
+-1.344911  1.816744 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+               Estimate Std. Error z value  Pr(>|z|)    
+LitImpMinDelta  0.24432    0.79941  0.3056 0.7598915    
+-2|-1          -1.78167    0.38463 -4.6322 3.618e-06 ***
+-1|0           -1.08456    0.31168 -3.4797 0.0005019 ***
+0|1             0.71283    0.28844  2.4713 0.0134607 *  
+1|2             2.29529    0.46963  4.8874 1.022e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpAvgDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                  Value Std. Error t value
+LitImpAvgDelta -0.04964      1.478 -0.0336
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7708  0.3825    -4.6292
+-1|0  -1.0747  0.3096    -3.4709
+0|1    0.7207  0.2874     2.5075
+1|2    2.3028  0.4691     4.9088
+
+Residual Deviance: 159.0173 
+AIC: 169.0173 
+    2.5 %    97.5 % 
+-2.950107  2.887243 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                Estimate Std. Error z value  Pr(>|z|)    
+LitImpAvgDelta -0.049643   1.477628 -0.0336 0.9731991    
+-2|-1          -1.770814   0.382533 -4.6292 3.671e-06 ***
+-1|0           -1.074673   0.309627 -3.4709 0.0005188 ***
+0|1             0.720689   0.287416  2.5075 0.0121598 *  
+1|2             2.302769   0.469110  4.9088 9.163e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ AttImpMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                 Value Std. Error t value
+AttImpMaxDelta 0.06795     0.2331  0.2914
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6102  0.4188    -3.8450
+-1|0  -0.9993  0.3595    -2.7799
+0|1    0.8020  0.3466     2.3140
+1|2    2.2498  0.5065     4.4417
+
+Residual Deviance: 145.0338 
+AIC: 155.0338 
+(5 observations deleted due to missingness)
+     2.5 %     97.5 % 
+-0.3918900  0.5276005 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                Estimate Std. Error z value  Pr(>|z|)    
+AttImpMaxDelta  0.067946   0.233142  0.2914 0.7707187    
+-2|-1          -1.610166   0.418770 -3.8450 0.0001206 ***
+-1|0           -0.999298   0.359472 -2.7799 0.0054375 ** 
+0|1             0.802046   0.346602  2.3140 0.0206664 *  
+1|2             2.249826   0.506518  4.4417 8.923e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5272727 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ AttImpSumDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                  Value Std. Error t value
+AttImpSumDelta 0.002009    0.07541 0.02665
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6552  0.4025    -4.1124
+-1|0  -1.0430  0.3412    -3.0569
+0|1    0.7569  0.3245     2.3321
+1|2    2.2005  0.4871     4.5178
+
+Residual Deviance: 145.1181 
+AIC: 155.1181 
+(5 observations deleted due to missingness)
+     2.5 %     97.5 % 
+-0.1463601  0.1512537 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                 Estimate Std. Error z value  Pr(>|z|)    
+AttImpSumDelta  0.0020094  0.0754078  0.0266  0.978741    
+-2|-1          -1.6551623  0.4024816 -4.1124 3.916e-05 ***
+-1|0           -1.0429918  0.3411886 -3.0569  0.002236 ** 
+0|1             0.7568539  0.3245306  2.3321  0.019693 *  
+1|2             2.2004839  0.4870672  4.5178 6.248e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5272727 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ AttImpMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                 Value Std. Error t value
+AttImpMinDelta -0.2088     0.5372 -0.3886
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6056  0.4083    -3.9330
+-1|0  -0.9908  0.3518    -2.8164
+0|1    0.8126  0.3406     2.3862
+1|2    2.2557  0.4966     4.5426
+
+Residual Deviance: 144.9669 
+AIC: 154.9669 
+(5 observations deleted due to missingness)
+     2.5 %     97.5 % 
+-1.2739469  0.8446376 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+               Estimate Std. Error z value  Pr(>|z|)    
+AttImpMinDelta -0.20877    0.53720 -0.3886  0.697560    
+-2|-1          -1.60565    0.40825 -3.9330 8.390e-05 ***
+-1|0           -0.99081    0.35180 -2.8164  0.004857 ** 
+0|1             0.81264    0.34056  2.3862  0.017024 *  
+1|2             2.25565    0.49656  4.5426 5.557e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5272727 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ AttImpAvgDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                   Value Std. Error  t value
+AttImpAvgDelta -0.007987      0.456 -0.01751
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6624  0.4598    -3.6160
+-1|0  -1.0500  0.4058    -2.5879
+0|1    0.7498  0.3855     1.9448
+1|2    2.1930  0.5302     4.1366
+
+Residual Deviance: 145.1185 
+AIC: 155.1185 
+(5 observations deleted due to missingness)
+     2.5 %     97.5 % 
+-0.9098292  0.8885602 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                 Estimate Std. Error z value  Pr(>|z|)    
+AttImpAvgDelta -0.0079873  0.4560336 -0.0175 0.9860261    
+-2|-1          -1.6624489  0.4597522 -3.6160 0.0002992 ***
+-1|0           -1.0500431  0.4057582 -2.5879 0.0096576 ** 
+0|1             0.7497544  0.3855134  1.9448 0.0517966 .  
+1|2             2.1930132  0.5301518  4.1366 3.525e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5272727 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7707  0.3825    -4.6298
+-1|0  -1.0745  0.3095    -3.4713
+0|1    0.7205  0.2874     2.5074
+1|2    2.3026  0.4690     4.9091
+
+Residual Deviance: 159.0187 
+AIC: 167.0187 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+               Value Std. Error t value
+DepthMinDelta 0.1314     0.2477  0.5306
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7953  0.3860    -4.6504
+-1|0  -1.0990  0.3139    -3.5013
+0|1    0.7016  0.2896     2.4224
+1|2    2.2907  0.4695     4.8790
+
+Residual Deviance: 158.7361 
+AIC: 168.7361 
+     2.5 %     97.5 % 
+-0.3561969  0.6224312 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+              Estimate Std. Error z value  Pr(>|z|)    
+DepthMinDelta  0.13144    0.24774  0.5306 0.5957225    
+-2|-1         -1.79528    0.38605 -4.6504 3.312e-06 ***
+-1|0          -1.09895    0.31387 -3.5013 0.0004629 ***
+0|1            0.70159    0.28962  2.4224 0.0154179 *  
+1|2            2.29072    0.46951  4.8790 1.066e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthSumDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                        Value Std. Error t value
+LabelLengthSumDelta -0.008875    0.01483 -0.5985
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.9035  0.4449    -4.2785
+-1|0  -1.2036  0.3797    -3.1697
+0|1    0.6028  0.3466     1.7395
+1|2    2.1884  0.5040     4.3421
+
+Residual Deviance: 158.6592 
+AIC: 168.6592 
+      2.5 %      97.5 % 
+-0.03831879  0.02015485 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                      Estimate Std. Error z value  Pr(>|z|)    
+LabelLengthSumDelta -0.0088745  0.0148271 -0.5985  0.549483    
+-2|-1               -1.9035064  0.4448976 -4.2785 1.881e-05 ***
+-1|0                -1.2036147  0.3797255 -3.1697  0.001526 ** 
+0|1                  0.6028411  0.3465683  1.7395  0.081954 .  
+1|2                  2.1883659  0.5039857  4.3421 1.411e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                       Value Std. Error t value
+LabelLengthMaxDelta -0.01894    0.02657 -0.7128
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.9621  0.4720    -4.1566
+-1|0  -1.2658  0.4139    -3.0582
+0|1    0.5457  0.3763     1.4504
+1|2    2.1411  0.5182     4.1316
+
+Residual Deviance: 158.5087 
+AIC: 168.5087 
+      2.5 %      97.5 % 
+-0.07163730  0.03306732 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                     Estimate Std. Error z value  Pr(>|z|)    
+LabelLengthMaxDelta -0.018942   0.026574 -0.7128  0.475961    
+-2|-1               -1.962076   0.472044 -4.1566 3.231e-05 ***
+-1|0                -1.265753   0.413894 -3.0582  0.002227 ** 
+0|1                  0.545730   0.376259  1.4504  0.146944    
+1|2                  2.141111   0.518232  4.1316 3.603e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthAvgDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                       Value Std. Error t value
+LabelLengthAvgDelta -0.03687    0.05234 -0.7044
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.9288  0.4471    -4.3143
+-1|0  -1.2282  0.3819    -3.2159
+0|1    0.5812  0.3471     1.6746
+1|2    2.1686  0.5034     4.3080
+
+Residual Deviance: 158.5214 
+AIC: 168.5214 
+      2.5 %      97.5 % 
+-0.14066497  0.06581549 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                     Estimate Std. Error z value  Pr(>|z|)    
+LabelLengthAvgDelta -0.036867   0.052342 -0.7044   0.48121    
+-2|-1               -1.928756   0.447061 -4.3143 1.601e-05 ***
+-1|0                -1.228196   0.381910 -3.2159   0.00130 ** 
+0|1                  0.581222   0.347089  1.6746   0.09402 .  
+1|2                  2.168611   0.503392  4.3080 1.647e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                       Value Std. Error t value
+LabelLengthMinDelta 0.007601    0.05063  0.1501
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7633  0.3860    -4.5684
+-1|0  -1.0667  0.3139    -3.3980
+0|1    0.7280  0.2917     2.4955
+1|2    2.3104  0.4721     4.8933
+
+Residual Deviance: 158.9962 
+AIC: 168.9962 
+      2.5 %      97.5 % 
+-0.09214216  0.10761449 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                     Estimate Std. Error z value  Pr(>|z|)    
+LabelLengthMinDelta  0.007601   0.050626  0.1501 0.8806527    
+-2|-1               -1.763285   0.385978 -4.5684 4.916e-06 ***
+-1|0                -1.066731   0.313925 -3.3980 0.0006787 ***
+0|1                  0.727989   0.291719  2.4955 0.0125775 *  
+1|2                  2.310380   0.472149  4.8933 9.915e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ MinDistanceDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7707  0.3825    -4.6298
+-1|0  -1.0745  0.3095    -3.4713
+0|1    0.7205  0.2874     2.5074
+1|2    2.3026  0.4690     4.9091
+
+Residual Deviance: 159.0187 
+AIC: 167.0187 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ MaxDistanceDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7707  0.3825    -4.6298
+-1|0  -1.0745  0.3095    -3.4713
+0|1    0.7205  0.2874     2.5074
+1|2    2.3026  0.4690     4.9091
+
+Residual Deviance: 159.0187 
+AIC: 167.0187 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMaxDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                     Value Std. Error t value
+PageRankMaxDelta 0.0009113   0.003294  0.2766
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7894  0.3890    -4.6002
+-1|0  -1.0939  0.3179    -3.4408
+0|1    0.7022  0.2943     2.3857
+1|2    2.2876  0.4724     4.8429
+
+Residual Deviance: 158.942 
+AIC: 168.942 
+       2.5 %       97.5 % 
+-0.005614860  0.007399202 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                    Estimate  Std. Error z value Pr(>|z|)    
+PageRankMaxDelta  0.00091132  0.00329418  0.2766  0.78205    
+-2|-1            -1.78938059  0.38897625 -4.6002 4.22e-06 ***
+-1|0             -1.09391789  0.31792732 -3.4408  0.00058 ***
+0|1               0.70221660  0.29434572  2.3857  0.01705 *  
+1|2               2.28759618  0.47236163  4.8429 1.28e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMinDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                    Value Std. Error t value
+PageRankMinDelta -0.02341    0.05426 -0.4315
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7311  0.3926    -4.4087
+-1|0  -1.0349  0.3222    -3.2123
+0|1    0.7610  0.3031     2.5101
+1|2    2.3476  0.4820     4.8703
+
+Residual Deviance: 158.8322 
+AIC: 168.8322 
+      2.5 %      97.5 % 
+-0.13152165  0.08329379 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                  Estimate Std. Error z value  Pr(>|z|)    
+PageRankMinDelta -0.023413   0.054261 -0.4315  0.666107    
+-2|-1            -1.731051   0.392648 -4.4087 1.040e-05 ***
+-1|0             -1.034948   0.322186 -3.2123  0.001317 ** 
+0|1               0.760950   0.303150  2.5101  0.012068 *  
+1|2               2.347607   0.482023  4.8703 1.114e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankAvgDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                    Value Std. Error t value
+PageRankAvgDelta 0.004095    0.01315  0.3114
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7918  0.3895    -4.6002
+-1|0  -1.0964  0.3184    -3.4431
+0|1    0.6987  0.2948     2.3703
+1|2    2.2851  0.4728     4.8334
+
+Residual Deviance: 158.923 
+AIC: 168.923 
+      2.5 %      97.5 % 
+-0.02199701  0.02999079 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                   Estimate Std. Error z value  Pr(>|z|)    
+PageRankAvgDelta  0.0040953  0.0131518  0.3114 0.7555045    
+-2|-1            -1.7917718  0.3894965 -4.6002 4.220e-06 ***
+-1|0             -1.0963516  0.3184241 -3.4431 0.0005752 ***
+0|1               0.6987331  0.2947808  2.3703 0.0177713 *  
+1|2               2.2851098  0.4727741  4.8334 1.342e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ ConfDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+           Value Std. Error t value
+ConfDelta -25.43      59.87 -0.4248
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1  -1.7385   0.3893    -4.4660
+-1|0   -1.0411   0.3189    -3.2648
+0|1     0.7578   0.3015     2.5139
+1|2     2.3415   0.4790     4.8885
+
+Residual Deviance: 158.9147 
+AIC: 168.9147 
+     2.5 %     97.5 % 
+-139.44840   98.75528 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+           Estimate Std. Error z value  Pr(>|z|)    
+ConfDelta -25.43465   59.87090 -0.4248  0.670964    
+-2|-1      -1.73852    0.38928 -4.4660 7.971e-06 ***
+-1|0       -1.04113    0.31890 -3.2648  0.001095 ** 
+0|1         0.75783    0.30146  2.5139  0.011941 *  
+1|2         2.34151    0.47898  4.8885 1.016e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ SuppDelta, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+           Value Std. Error t value
+SuppDelta -16.58      39.05 -0.4245
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1  -1.7385   0.3893    -4.4660
+-1|0   -1.0412   0.3189    -3.2649
+0|1     0.7578   0.3015     2.5138
+1|2     2.3415   0.4790     4.8885
+
+Residual Deviance: 158.9146 
+AIC: 168.9146 
+    2.5 %    97.5 % 
+-90.96127  64.41714 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+           Estimate Std. Error z value  Pr(>|z|)    
+SuppDelta -16.57706   39.05356 -0.4245  0.671223    
+-2|-1      -1.73854    0.38928 -4.4660 7.969e-06 ***
+-1|0       -1.04118    0.31890 -3.2649  0.001095 ** 
+0|1         0.75780    0.30146  2.5138  0.011945 *  
+1|2         2.34147    0.47898  4.8885 1.016e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenDelta + LabelLengthAvgDelta + LabelLengthMaxDelta + 
+    PageRankMinDelta + PageRankAvgDelta + SuppDelta + ConfDelta, 
+    data = filteredCF, Hess = TRUE)
+
+Coefficients:
+                         Value Std. Error t value
+LabelLengthAvgDelta  -0.016358    0.10410 -0.1571
+LabelLengthMaxDelta  -0.007262    0.05190 -0.1399
+PageRankMinDelta     -0.023256    0.06082 -0.3824
+PageRankAvgDelta      0.002104    0.01369  0.1537
+SuppDelta           -15.713754   44.06470 -0.3566
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1  -1.8567   0.5248    -3.5380
+-1|0   -1.1569   0.4757    -2.4322
+0|1     0.6565   0.4479     1.4656
+1|2     2.2530   0.5765     3.9083
+
+Residual Deviance: 158.2339 
+AIC: 176.2339 
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7707  0.3825    -4.6298
+-1|0  -1.0745  0.3095    -3.4713
+0|1    0.7205  0.2874     2.5074
+1|2    2.3026  0.4690     4.9091
+
+Residual Deviance: 159.0187 
+AIC: 167.0187 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LitImpMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                  Value Std. Error t value
+LitImpMaxRatio -0.04189     0.5908 -0.0709
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.8574  0.7211    -2.5759
+-1|0  -1.0886  0.6827    -1.5946
+0|1    0.7111  0.6735     1.0559
+1|2    2.4006  0.7858     3.0551
+
+Residual Deviance: 143.8554 
+AIC: 153.8554 
+(5 observations deleted due to missingness)
+    2.5 %    97.5 % 
+-1.212624  1.123854 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                Estimate Std. Error z value Pr(>|z|)   
+LitImpMaxRatio -0.041892   0.590816 -0.0709 0.943473   
+-2|-1          -1.857383   0.721064 -2.5759 0.009998 **
+-1|0           -1.088588   0.682660 -1.5946 0.110796   
+0|1             0.711146   0.673481  1.0559 0.291002   
+1|2             2.400607   0.785772  3.0551 0.002250 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5272727 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7707  0.3825    -4.6298
+-1|0  -1.0745  0.3095    -3.4713
+0|1    0.7205  0.2874     2.5074
+1|2    2.3026  0.4690     4.9091
+
+Residual Deviance: 159.0187 
+AIC: 167.0187 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ DepthMinRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+               Value Std. Error t value
+DepthMinRatio 0.8942      1.229  0.7276
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -0.8945  1.2589    -0.7105
+-1|0  -0.1980  1.2401    -0.1597
+0|1    1.6075  1.2568     1.2790
+1|2    3.2033  1.3342     2.4009
+
+Residual Deviance: 158.4897 
+AIC: 168.4897 
+    2.5 %    97.5 % 
+-1.528732  3.331022 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+              Estimate Std. Error z value Pr(>|z|)  
+DepthMinRatio  0.89425    1.22900  0.7276  0.46684  
+-2|-1         -0.89447    1.25889 -0.7105  0.47738  
+-1|0          -0.19801    1.24013 -0.1597  0.87314  
+0|1            1.60752    1.25681  1.2790  0.20088  
+1|2            3.20332    1.33421  2.4009  0.01635 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                      Value Std. Error t value
+LabelLengthMaxRatio -0.6825      1.007 -0.6778
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -2.6441  1.3511    -1.9571
+-1|0  -1.9482  1.3310    -1.4637
+0|1   -0.1381  1.2962    -0.1065
+1|2    1.4568  1.3270     1.0978
+
+Residual Deviance: 158.558 
+AIC: 168.558 
+    2.5 %    97.5 % 
+-2.678661  1.289202 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                    Estimate Std. Error z value Pr(>|z|)  
+LabelLengthMaxRatio -0.68253    1.00701 -0.6778  0.49791  
+-2|-1               -2.64415    1.35107 -1.9571  0.05034 .
+-1|0                -1.94820    1.33102 -1.4637  0.14328  
+0|1                 -0.13809    1.29619 -0.1065  0.91516  
+1|2                  1.45679    1.32702  1.0978  0.27229  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthAvgRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                      Value Std. Error t value
+LabelLengthAvgRatio -0.9548      1.375 -0.6943
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -2.8890  1.6615    -1.7388
+-1|0  -2.1889  1.6392    -1.3353
+0|1   -0.3805  1.6076    -0.2367
+1|2    1.2076  1.6380     0.7372
+
+Residual Deviance: 158.5353 
+AIC: 168.5353 
+    2.5 %    97.5 % 
+-3.678999  1.748453 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                    Estimate Std. Error z value Pr(>|z|)  
+LabelLengthAvgRatio -0.95483    1.37514 -0.6943  0.48746  
+-2|-1               -2.88898    1.66149 -1.7388  0.08207 .
+-1|0                -2.18888    1.63923 -1.3353  0.18177  
+0|1                 -0.38045    1.60762 -0.2367  0.81292  
+1|2                  1.20761    1.63804  0.7372  0.46098  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ LabelLengthMinRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                     Value Std. Error t value
+LabelLengthMinRatio 0.3743     0.8981  0.4168
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.3694  1.0329    -1.3257
+-1|0  -0.6727  1.0100    -0.6661
+0|1    1.1226  1.0089     1.1127
+1|2    2.7083  1.0861     2.4935
+
+Residual Deviance: 158.8445 
+AIC: 168.8445 
+    2.5 %    97.5 % 
+-1.390689  2.158346 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                    Estimate Std. Error z value Pr(>|z|)  
+LabelLengthMinRatio  0.37431    0.89814  0.4168  0.67685  
+-2|-1               -1.36936    1.03294 -1.3257  0.18494  
+-1|0                -0.67271    1.00997 -0.6661  0.50537  
+0|1                  1.12265    1.00891  1.1127  0.26582  
+1|2                  2.70832    1.08615  2.4935  0.01265 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ MinDistanceRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6582  0.3858    -4.2986
+-1|0  -1.0457  0.3224    -3.2436
+0|1    0.7539  0.3032     2.4866
+1|2    2.1972  0.4714     4.6611
+
+Residual Deviance: 145.1188 
+AIC: 153.1188 
+(5 observations deleted due to missingness)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ MaxDistanceRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+No coefficients
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6582  0.3858    -4.2986
+-1|0  -1.0457  0.3224    -3.2436
+0|1    0.7539  0.3032     2.4866
+1|2    2.1972  0.4714     4.6611
+
+Residual Deviance: 145.1188 
+AIC: 153.1188 
+(5 observations deleted due to missingness)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMaxRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                   Value Std. Error t value
+PageRankMaxRatio 0.04826    0.07103  0.6794
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6926  0.3989    -4.2431
+-1|0  -0.9907  0.3326    -2.9789
+0|1    0.8200  0.3249     2.5235
+1|2    2.4037  0.4949     4.8570
+
+Residual Deviance: 158.5587 
+AIC: 168.5587 
+      2.5 %      97.5 % 
+-0.09319816  0.18993122 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                  Estimate Std. Error z value  Pr(>|z|)    
+PageRankMaxRatio  0.048256   0.071030  0.6794  0.496899    
+-2|-1            -1.692563   0.398895 -4.2431 2.204e-05 ***
+-1|0             -0.990749   0.332594 -2.9789  0.002893 ** 
+0|1               0.819993   0.324938  2.5235  0.011618 *  
+1|2               2.403677   0.494894  4.8570 1.192e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankMinRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                   Value Std. Error t value
+PageRankMinRatio 0.06295     0.6124  0.1028
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.7227  0.6027    -2.8581
+-1|0  -1.0260  0.5638    -1.8197
+0|1    0.7697  0.5582     1.3789
+1|2    2.3512  0.6669     3.5258
+
+Residual Deviance: 159.0081 
+AIC: 169.0081 
+    2.5 %    97.5 % 
+-1.142118  1.271725 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                 Estimate Std. Error z value  Pr(>|z|)    
+PageRankMinRatio  0.06295    0.61235  0.1028 0.9181217    
+-2|-1            -1.72272    0.60274 -2.8581 0.0042614 ** 
+-1|0             -1.02600    0.56382 -1.8197 0.0688000 .  
+0|1               0.76968    0.55817  1.3789 0.1679165    
+1|2               2.35120    0.66685  3.5258 0.0004222 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ PageRankAvgRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+                  Value Std. Error t value
+PageRankAvgRatio 0.1149     0.1868  0.6152
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -1.6481  0.4304    -3.8291
+-1|0  -0.9476  0.3709    -2.5547
+0|1    0.8599  0.3686     2.3326
+1|2    2.4436  0.5255     4.6498
+
+Residual Deviance: 158.6417 
+AIC: 168.6417 
+     2.5 %     97.5 % 
+-0.2574691  0.4863077 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+                 Estimate Std. Error z value  Pr(>|z|)    
+PageRankAvgRatio  0.11493    0.18680  0.6152 0.5383977    
+-2|-1            -1.64811    0.43041 -3.8291 0.0001286 ***
+-1|0             -0.94763    0.37093 -2.5547 0.0106267 *  
+0|1               0.85986    0.36862  2.3326 0.0196666 *  
+1|2               2.44363    0.52554  4.6498 3.323e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ ConfRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+           Value Std. Error t value
+ConfRatio -11.34      31.42 -0.3609
+
+Intercepts:
+      Value    Std. Error t value 
+-2|-1 -13.0829  31.3508    -0.4173
+-1|0  -12.3855  31.3462    -0.3951
+0|1   -10.5872  31.3330    -0.3379
+1|2    -9.0042  31.3302    -0.2874
+
+Residual Deviance: 158.9072 
+AIC: 168.9072 
+NULL
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ SuppRatio, data = cf, na.action = na.omit, 
+    Hess = TRUE)
+
+Coefficients:
+            Value Std. Error t value
+SuppRatio -0.4115       1.23 -0.3346
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1 -2.1569  1.2181    -1.7707
+-1|0  -1.4596  1.1935    -1.2229
+0|1    0.3383  1.1760     0.2876
+1|2    1.9212  1.2287     1.5636
+
+Residual Deviance: 158.9066 
+AIC: 168.9066 
+    2.5 %    97.5 % 
+-2.863102  2.026815 
+coefficient interval does not cross zero FALSE 
+
+z test of coefficients:
+
+          Estimate Std. Error z value Pr(>|z|)  
+SuppRatio -0.41149    1.22962 -0.3346   0.7379  
+-2|-1     -2.15688    1.21806 -1.7707   0.0766 .
+-1|0      -1.45956    1.19351 -1.2229   0.2214  
+0|1        0.33825    1.17596  0.2876   0.7736  
+1|2        1.92116    1.22868  1.5636   0.1179  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+resubstitution error (on non missing) 0.5818182 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Call:
+polr(formula = target ~ lenRatio + LabelLengthMaxRatio + LabelLengthAvgDelta + 
+    PageRankMinRatio + PageRankAvgRatio + SuppRatio + ConfRatio, 
+    data = filteredCF, na.action = na.omit, Hess = TRUE)
+
+Coefficients:
+                       Value Std. Error  t value
+LabelLengthMaxRatio  2.98752     2.7074  1.10347
+LabelLengthAvgDelta -0.17070     0.1503 -1.13558
+PageRankMinRatio     0.61456     0.9613  0.63934
+PageRankAvgRatio    -0.04211     0.3058 -0.13769
+SuppRatio           -0.02242     1.4908 -0.01504
+
+Intercepts:
+      Value   Std. Error t value
+-2|-1  1.4785  3.2088     0.4608
+-1|0   2.2677  3.2311     0.7018
+0|1    4.0491  3.2743     1.2366
+1|2    5.7762  3.3038     1.7483
+
+Residual Deviance: 128.3475 
+AIC: 146.3475 
+NULL
+total number of rows 55 
+the resubstitution error of most frequent class 0.5818182 
