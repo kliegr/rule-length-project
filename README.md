@@ -34,3 +34,5 @@ experiments/postprocessed_crowdflower_output # enriched and transformed crowdsou
 experiments/stats                            # result of statistical analysis on various subsets of the data
 experiments/summary.csv                      # the final overview of the results
 ```
+## Further documentation: experiment_summary_digest.xlsx
+The excel file `experiment_summary_digest.xlsx` provides further documentation on the analysis scripts as well as annotation guidelines. It also presents overview of the statistical analysis of the results.
