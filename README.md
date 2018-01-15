@@ -36,7 +36,16 @@ experiments/summary.csv                      # the final overview of the results
 ```
 
 ## License
-The code used to prepare experiments and analyze crowdsourcing data is published under GPL-3 license. The license for input datasets is pending. 
+The code used to prepare experiments and analyze crowdsourcing data is published under GPL-3 license.
+
+Three of the input datasets (Cities /also referred to as Mercer/, Traffic and Metacritic Movies)  were adapted from datasets published in:
+```
+Ristoski, Petar, Gerben Klaas Dirk de Vries, and Heiko Paulheim. "A collection of benchmark datasets for systematic evaluations of machine learning on the semantic web." International Semantic Web Conference. Springer International Publishing, 2016.
+```
+The current state of the licensing information for these datasets can be found at the [LOD dataset website](http://w3id.org/sw4ml-datasets). As of January 2018, these licenses are:
+ * Traffic: [open](http://www.who.int/about/licensing/extracts/en/)
+ * Metacritic Movies: pending
+ * Cities: pending
 
 ## Further documentation
 The excel file `experiment_summary_digest.xlsx` provides further documentation on the analysis scripts as well as annotation guidelines. It also presents overview of the statistical analysis of the results.
