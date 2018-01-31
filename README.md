@@ -47,5 +47,8 @@ The current state of the licensing information for these datasets can be found a
  * Metacritic Movies: pending
  * Cities: pending
 
+The values of PageRank were sourced from  [Andreas Thalhammer's project](http://people.aifb.kit.edu/ath/).  The license is
+ *Creative Commons Attribution-ShareAlike License*.
+ 
 ## Further documentation
 The excel file `experiment_summary_digest.xlsx` provides further documentation on the analysis scripts as well as annotation guidelines. It also presents overview of the statistical analysis of the results.
